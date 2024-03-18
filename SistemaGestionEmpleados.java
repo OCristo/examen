@@ -11,10 +11,10 @@ public class SistemaGestionEmpleados {
     // Crea una clase estática con todos los textos fijos (magic strings) usados en pantalla como constantes para facilitar la corrección de textos y traducciones de idiomas. Por su puesto, sustituye el uso de los strings por el uso de las constantes correspondientes.
     // Haz un commit con una frase como explicación de la mejora anterior.
     // Crea una nueva rama llamada Doc y muévete a ella para trabajar.
-    Documenta en la rama Doc, usando filosofía JavaDoc, todo el código de las tres clases resultantes, sus atributos y métodos.
-    Haz un commit con una frase como explicación de la mejora anterior.
-    Mezcla la rama Doc con la rama con tus iniciales
-    Mezcla la rama de tus iniciales con la rama main donde debe estar el resultado de todo el código modificado pero funcionando exactamente igual que el código original.
+    // Documenta en la rama Doc, usando filosofía JavaDoc, todo el código de las tres clases resultantes, sus atributos y métodos.
+    // Haz un commit con una frase como explicación de la mejora anterior.
+    // Mezcla la rama Doc con la rama con tus iniciales
+    // Mezcla la rama de tus iniciales con la rama main donde debe estar el resultado de todo el código modificado pero funcionando exactamente igual que el código original.
     Publica el resultado en tu Github
     Modifica el Readme.md de tu repositorio incluyendo tu nombre completo y una captura de pantalla de una vista visual en tu editor de código de las ramas y los commits de tu proyecto. Puedes instalar alguna extensión o herramienta visual que permita esta visualización. Para poder incluir la imagen de la captura en el Readme.md tendrás que subirla también al repositorio.
     Responde a la tarea con la URL de tu repositorio.
@@ -36,5 +36,6 @@ public class SistemaGestionEmpleados {
         }
 
         scanner.close();
+        // No están perfectos los commits pero esta es mi obra y la quiero tal y como es
     }
 }
