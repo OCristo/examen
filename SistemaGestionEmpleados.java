@@ -15,8 +15,8 @@ public class SistemaGestionEmpleados {
     // Haz un commit con una frase como explicación de la mejora anterior.
     // Mezcla la rama Doc con la rama con tus iniciales
     // Mezcla la rama de tus iniciales con la rama main donde debe estar el resultado de todo el código modificado pero funcionando exactamente igual que el código original.
-    Publica el resultado en tu Github
-    Modifica el Readme.md de tu repositorio incluyendo tu nombre completo y una captura de pantalla de una vista visual en tu editor de código de las ramas y los commits de tu proyecto. Puedes instalar alguna extensión o herramienta visual que permita esta visualización. Para poder incluir la imagen de la captura en el Readme.md tendrás que subirla también al repositorio.
+    // Publica el resultado en tu Github
+    // Modifica el Readme.md de tu repositorio incluyendo tu nombre completo y una captura de pantalla de una vista visual en tu editor de código de las ramas y los commits de tu proyecto. Puedes instalar alguna extensión o herramienta visual que permita esta visualización. Para poder incluir la imagen de la captura en el Readme.md tendrás que subirla también al repositorio.
     Responde a la tarea con la URL de tu repositorio.
      */
 
