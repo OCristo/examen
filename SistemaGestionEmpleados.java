@@ -8,9 +8,9 @@ public class SistemaGestionEmpleados {
     // Haz un commit con una frase como explicación de la mejora anterior.
     // Separa la lógica de gestión de todos los empleados en SistemaGestionEmpleados a una clase nueva llamada Empleados, distinta de la aplicación principal (main). Esta nueva clase contendrá el array de empleados, un nuevo método para mostrar el listado de los empleados código que está en el main, el método de aumentar salario y un nuevo método para dar de alta empleados que se debe usar en el main para añadir los tres empleados del ejemplo. La nueva clase Empleados contendría el atributo empleados que es el array de "Empleado", esto sería válido pero algo redundante en su uso tipo: empleados.empleados, así que se pide refactorizar el nombre del atributo empleados al nombre lista quedando al usarlo como empleados.lista. Esta nueva clase debe ser usada correctamente desde el método main para que el código siga funcionando exactamente igual.
     // Haz un commit con una frase como explicación de la mejora anterior.
-    Crea una clase estática con todos los textos fijos (magic strings) usados en pantalla como constantes para facilitar la corrección de textos y traducciones de idiomas. Por su puesto, sustituye el uso de los strings por el uso de las constantes correspondientes.
-    Haz un commit con una frase como explicación de la mejora anterior.
-    Crea una nueva rama llamada Doc y muévete a ella para trabajar.
+    // Crea una clase estática con todos los textos fijos (magic strings) usados en pantalla como constantes para facilitar la corrección de textos y traducciones de idiomas. Por su puesto, sustituye el uso de los strings por el uso de las constantes correspondientes.
+    // Haz un commit con una frase como explicación de la mejora anterior.
+    // Crea una nueva rama llamada Doc y muévete a ella para trabajar.
     Documenta en la rama Doc, usando filosofía JavaDoc, todo el código de las tres clases resultantes, sus atributos y métodos.
     Haz un commit con una frase como explicación de la mejora anterior.
     Mezcla la rama Doc con la rama con tus iniciales

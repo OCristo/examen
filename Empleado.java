@@ -1,7 +1,19 @@
 class Empleado {
+    /**
+     * En este atributo se introduce el nombre del empleado
+     */
     private String nombre;
+    /**
+     * En este atributo se introduce el cargo que ocupa este empleado
+     */
     private String cargo;
+    /**
+     * En este atributo se introduce el salario del empleado
+     */
     private double salario;
+    /**
+     * Array donde se almacenan los objetos empleado
+     */
     private static Empleado[] lista;
 
     
@@ -32,13 +44,20 @@ class Empleado {
     public static Empleado[] getLista() {
         return lista;
     }
-
+    /**
+     * Constructor de empleado
+     * @param nombre
+     * @param cargo
+     * @param salario
+     */
     public Empleado(String nombre, String cargo, double salario) {
         this.nombre = nombre;
         this.cargo = cargo;
         this.salario = salario;
     }
-
+    /**
+     * Constructor de empleado por defecto
+     */
     public Empleado() {
         
     }
@@ -51,14 +70,19 @@ class Empleado {
                 ", salario=" + salario +
                 '}';
     }
-
+    /**
+     * Metodo donde aumentar el salario de los empleados
+     * @param porcentaje que quieres aumentar el salario
+     */
     public static void aumentarSalario(double porcentaje) {
         for (Empleado empleado : lista) {
             double nuevoSalario = empleado.getSalario() * (1 + porcentaje / 100);
             empleado.setSalario(nuevoSalario); 
         }
     }
-
+    /**
+     * Metodo para inicializar a los empleados iniciales
+     */
     public static void altaEmpleados(){
 
         lista = new Empleado[3];
